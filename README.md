@@ -1,6 +1,5 @@
 ### Graph Neural Network Tutorial for Deep Learning (CO460)
 
-Contents:
 #### 1. Pytorch Geometric Framework
 - Understanding Message Passing Scheme in Pytorch Geometric.
 - Efficient graph data representations and paralleling minibatching graphs.
@@ -12,3 +11,7 @@ Contents:
 
 #### 3. Graph Classification
 - Implement **GINConv** (Xu et al, [HOW POWERFUL ARE GRAPH NEURAL NETWORKS?](https://arxiv.org/abs/1810.00826), ICLR 2019) on graph classification benchmark dataset (IMDB) and compare different aggregation functions (SUM/MEAN/MAX).
+
+
+#### Acknowledgments
+This tutorial is designed based the [Pytorch Geometric](https://github.com/rusty1s/pytorch_geometric) library, and we own many thanks to Matthias Fey for making this great library to facilitate the research in Graph Neural Networks. 
